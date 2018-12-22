@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
-import Accordion from '../components/accordion'
+import TodosList from '../components/todos-list'
 
 class PopupApp extends Component {
   render () {
     return (
-      <div>
-        <h1>Hello gssgshsgssdjskdjskdjskdjsdkjdsh</h1>
-        <Accordion />
-        <Accordion />
-      </div>
+      <TodosList />
     )
   }
 }
